@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+*.js
+*.d.ts
+*.js.map
+!src/**/*.ts
+
+# LanceDB databases (local data)
+*.lance/
+memory-store/
+test-memory-store/
+test-retrieval-db/
+
+# Backup files
+backups/
+
+# Config files with sensitive data
+.openclaw/
+
+# Benchmark outputs
+benchmarks/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Test outputs
+test-output*.txt
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
